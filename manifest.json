@@ -1,0 +1,35 @@
+{
+
+  "description": "V14 bootstrap",
+  "manifest_version": 2,
+  "name": "V14",
+  "version": "14.0",
+  "homepage_url": "http://v14-s32.rhcloud.com/",
+  "icons": {
+    "32": "http://v14-s32.rhcloud.com/images/ico1.gif"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "v14@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "permissions": [
+    "activeTab"
+  ],  
+
+  "browser_action": {
+    "default_icon": "http://v14-s32.rhcloud.com/images/ico1.gif",
+    "default_title": "V14",
+    "default_popup": "popup/overlay.php"
+  },
+  
+  "web_accessible_resources": [
+    "beasts/frog.jpg",
+    "beasts/turtle.jpg",
+    "beasts/snake.jpg"
+  ]
+
+} 
